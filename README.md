@@ -47,7 +47,6 @@ GROUP BY [Product_Sub_Category]
 
 ...#4. Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers
 
-
 SELECT TOP 10 [Customer_Name], [Product_Name], [Shipping_Cost], [Order_Quantity], [Discount], [Unit_Price], SUM([Sales]) AS TotalSales
 FROM [dbo].[KMS Sql Case Study]
 GROUP BY [Customer_Name],[Product_Name], [Shipping_Cost], [Order_Quantity], [Discount], [Unit_Price]
