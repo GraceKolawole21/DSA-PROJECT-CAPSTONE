@@ -130,3 +130,11 @@ SELECT [Order_Priority], [Ship_Mode],
 FROM [dbo].[KMS Sql Case Study]
 GROUP BY [Order_Priority], [Ship_Mode]
 ORDER BY [Order_Priority], TotalShippingCost DESC
+
+
+
+## Case 1: Amazon Product Review Analysis
+## Excel-based analysis
+
+
+
